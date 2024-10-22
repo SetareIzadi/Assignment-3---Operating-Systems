@@ -60,3 +60,26 @@ clean:
 clean-all: clean
 	rm -rf $(LIB_DIR) $(EXECUTABLES)
 
+# Make clean for Windows
+wclean:
+	del /f /q ccParser*
+	del /f /q *.class
+	del /f /q cc*.java
+	del /f /q *.tokens
+	del /f /q *.interp
+	del /f /q .DS_Store
+	rd /s /q .idea
+	del /f /q *.iml
+	rd /s /q out\*
+
+# Make clean for Mac and Linux
+mclean:
+	rm -f ccParser*
+	rm -f *.class
+	rm -f cc*.java
+	rm -f *.tokens
+	rm -f *.interp
+	rm -f .DS_Store
+	rm -rf .idea/
+	rm -f *.iml
+	rm -rf out/*
