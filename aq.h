@@ -16,8 +16,8 @@
 
 typedef char MsgKind;
 
-#define AQ_ALARM        1   // Message is of kind alarm
-#define AQ_NORMAL       0   // Message if of kind normal
+#define AQ_ALARM        1   // Message is of kind alarm - most likely high priority
+#define AQ_NORMAL       0   // Message if of kind normal - most likely lower priority
 
 /* Error codes */
 #define AQ_UNINIT      -1   // Queue has not been initialized
