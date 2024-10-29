@@ -8,14 +8,14 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Assignment-3---Operating-Systems" targetName="lib" />
-      <config projectName="Assignment-3---Operating-Systems" targetName="lib-seq" />
-      <config projectName="Assignment-3---Operating-Systems" targetName="all" />
-      <config projectName="Assignment-3---Operating-Systems" targetName="clean-all" />
-      <config projectName="Assignment-3---Operating-Systems" targetName="demo" />
-      <config projectName="Assignment-3---Operating-Systems" targetName="mclean" />
-      <config projectName="Assignment-3---Operating-Systems" targetName="test" />
-      <config projectName="Assignment-3---Operating-Systems" targetName="wclean" />
+      <config projectName="3. projekt" targetName="lib" />
+      <config projectName="3. projekt" targetName="lib-seq" />
+      <config projectName="3. projekt" targetName="test" />
+      <config projectName="3. projekt" targetName="wclean" />
+      <config projectName="3. projekt" targetName="mclean" />
+      <config projectName="3. projekt" targetName="all" />
+      <config projectName="3. projekt" targetName="clean-all" />
+      <config projectName="3. projekt" targetName="demo" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -26,7 +26,12 @@
   <component name="ChangeListManager">
     <list default="true" id="42a3244b-8f70-4329-91d3-156486828a66" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aq.h" beforeDir="false" afterPath="$PROJECT_DIR$/aq.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aq_seq.c" beforeDir="false" afterPath="$PROJECT_DIR$/aq_seq.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aq_tsafe.c" beforeDir="false" afterPath="$PROJECT_DIR$/aq_tsafe.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo" beforeDir="false" afterPath="$PROJECT_DIR$/demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylib/libaq.a" beforeDir="false" afterPath="$PROJECT_DIR$/mylib/libaq.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylib/libaq_seq.a" beforeDir="false" afterPath="$PROJECT_DIR$/mylib/libaq_seq.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +58,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/SetareIzadi/Assignment-3---Operating-Systems.git&quot;,
-    &quot;accountId&quot;: &quot;d8ef88f7-88ca-4b47-81a9-2caa3145fd34&quot;
+    &quot;accountId&quot;: &quot;6d9e46cb-8705-4475-958a-0751dfbe57c6&quot;
   }
 }</component>
   <component name="MakefileLocalSettings">
@@ -62,14 +67,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="Assignment-3---Operating-Systems" />
+              <option name="name" value="3. projekt" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="Assignment-3---Operating-Systems" />
+                <option name="name" value="3. projekt" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -100,12 +105,14 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Makefile Target.mclean.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kasparasm/Desktop/Skole/3. semester/Operativsystemer/3. projekt&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -120,47 +127,42 @@
     </key>
   </component>
   <component name="RunManager" selected="Makefile Target.mclean">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment-3---Operating-Systems" TARGET_NAME="all" CONFIG_NAME="all" version="1">
+    <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="3. projekt" TARGET_NAME="all" CONFIG_NAME="all" version="1">
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="clean-all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment-3---Operating-Systems" TARGET_NAME="clean-all" CONFIG_NAME="clean-all" version="1">
+    <configuration name="clean-all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="3. projekt" TARGET_NAME="clean-all" CONFIG_NAME="clean-all" version="1">
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment-3---Operating-Systems" TARGET_NAME="demo" CONFIG_NAME="demo" version="1">
+    <configuration name="demo" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="3. projekt" TARGET_NAME="demo" CONFIG_NAME="demo" version="1">
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lib-seq" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment-3---Operating-Systems" TARGET_NAME="lib-seq" CONFIG_NAME="lib-seq" version="1">
+    <configuration name="lib-seq" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="3. projekt" TARGET_NAME="lib-seq" CONFIG_NAME="lib-seq" version="1">
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lib" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment-3---Operating-Systems" TARGET_NAME="lib" CONFIG_NAME="lib" version="1">
+    <configuration name="lib" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="3. projekt" TARGET_NAME="lib" CONFIG_NAME="lib" version="1">
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mclean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment-3---Operating-Systems" TARGET_NAME="mclean" CONFIG_NAME="mclean" version="1">
+    <configuration name="mclean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="3. projekt" TARGET_NAME="mclean" CONFIG_NAME="mclean" version="1">
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment-3---Operating-Systems" TARGET_NAME="test" CONFIG_NAME="test" version="1">
+    <configuration name="test" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="3. projekt" TARGET_NAME="test" CONFIG_NAME="test" version="1">
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wclean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment-3---Operating-Systems" TARGET_NAME="wclean" CONFIG_NAME="wclean" version="1">
+    <configuration name="wclean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="3. projekt" TARGET_NAME="wclean" CONFIG_NAME="wclean" version="1">
       <method v="2">
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
@@ -175,9 +177,9 @@
       <item itemvalue="Makefile Target.mclean" />
       <item itemvalue="Native Application.all" />
       <item itemvalue="Native Application.clean-all" />
-      <item itemvalue="Native Application.lib" />
-      <item itemvalue="Native Application.lib-seq" />
       <item itemvalue="Native Application.demo" />
+      <item itemvalue="Native Application.lib-seq" />
+      <item itemvalue="Native Application.lib" />
       <item itemvalue="Native Application.mclean" />
       <item itemvalue="Native Application.test" />
       <item itemvalue="Native Application.wclean" />
@@ -198,7 +200,9 @@
       <updated>1729584927290</updated>
       <workItem from="1729584928681" duration="1995000" />
       <workItem from="1729587280387" duration="4000" />
-      <workItem from="1729587310165" duration="4911000" />
+      <workItem from="1729587310165" duration="341000" />
+      <workItem from="1729588118742" duration="5591000" />
+      <workItem from="1730193282593" duration="608000" />
     </task>
     <servers />
   </component>
